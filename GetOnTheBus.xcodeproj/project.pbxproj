@@ -21,6 +21,14 @@
 		C99A13B4188F027600DA8053 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C99A1396188F027600DA8053 /* UIKit.framework */; };
 		C99A13BC188F027600DA8053 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C99A13BA188F027600DA8053 /* InfoPlist.strings */; };
 		C99A13BE188F027600DA8053 /* GetOnTheBusTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C99A13BD188F027600DA8053 /* GetOnTheBusTests.m */; };
+		C99A13C8188F02C200DA8053 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C99A13C7188F02C200DA8053 /* MapKit.framework */; };
+		C99A13CB188F198000DA8053 /* MapDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C99A13CA188F198000DA8053 /* MapDetailViewController.m */; };
+		C99A13CE188F1BB500DA8053 /* BusAnnotation.m in Sources */ = {isa = PBXBuildFile; fileRef = C99A13CD188F1BB500DA8053 /* BusAnnotation.m */; };
+		C99A13D0188F32C200DA8053 /* AddressBookUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C99A13CF188F32C200DA8053 /* AddressBookUI.framework */; };
+		C99A13D21890115800DA8053 /* pacelogo.png in Resources */ = {isa = PBXBuildFile; fileRef = C99A13D11890115800DA8053 /* pacelogo.png */; };
+		C99A13D41890116200DA8053 /* metralogo.png in Resources */ = {isa = PBXBuildFile; fileRef = C99A13D31890116200DA8053 /* metralogo.png */; };
+		C99A14171890300B00DA8053 /* pacelogosmall.png in Resources */ = {isa = PBXBuildFile; fileRef = C99A14161890300B00DA8053 /* pacelogosmall.png */; };
+		C99A14191890301600DA8053 /* metralogosmall.png in Resources */ = {isa = PBXBuildFile; fileRef = C99A14181890301600DA8053 /* metralogosmall.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +61,16 @@
 		C99A13B9188F027600DA8053 /* GetOnTheBusTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GetOnTheBusTests-Info.plist"; sourceTree = "<group>"; };
 		C99A13BB188F027600DA8053 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		C99A13BD188F027600DA8053 /* GetOnTheBusTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GetOnTheBusTests.m; sourceTree = "<group>"; };
+		C99A13C7188F02C200DA8053 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		C99A13C9188F198000DA8053 /* MapDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapDetailViewController.h; sourceTree = "<group>"; };
+		C99A13CA188F198000DA8053 /* MapDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapDetailViewController.m; sourceTree = "<group>"; };
+		C99A13CC188F1BB500DA8053 /* BusAnnotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BusAnnotation.h; sourceTree = "<group>"; };
+		C99A13CD188F1BB500DA8053 /* BusAnnotation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BusAnnotation.m; sourceTree = "<group>"; };
+		C99A13CF188F32C200DA8053 /* AddressBookUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AddressBookUI.framework; path = System/Library/Frameworks/AddressBookUI.framework; sourceTree = SDKROOT; };
+		C99A13D11890115800DA8053 /* pacelogo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pacelogo.png; sourceTree = "<group>"; };
+		C99A13D31890116200DA8053 /* metralogo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = metralogo.png; sourceTree = "<group>"; };
+		C99A14161890300B00DA8053 /* pacelogosmall.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pacelogosmall.png; sourceTree = "<group>"; };
+		C99A14181890301600DA8053 /* metralogosmall.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = metralogosmall.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +78,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C99A13D0188F32C200DA8053 /* AddressBookUI.framework in Frameworks */,
+				C99A13C8188F02C200DA8053 /* MapKit.framework in Frameworks */,
 				C99A1395188F027600DA8053 /* CoreGraphics.framework in Frameworks */,
 				C99A1397188F027600DA8053 /* UIKit.framework in Frameworks */,
 				C99A1393188F027600DA8053 /* Foundation.framework in Frameworks */,
@@ -101,6 +121,8 @@
 		C99A1391188F027600DA8053 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				C99A13CF188F32C200DA8053 /* AddressBookUI.framework */,
+				C99A13C7188F02C200DA8053 /* MapKit.framework */,
 				C99A1392188F027600DA8053 /* Foundation.framework */,
 				C99A1394188F027600DA8053 /* CoreGraphics.framework */,
 				C99A1396188F027600DA8053 /* UIKit.framework */,
@@ -115,6 +137,10 @@
 				C99A13A1188F027600DA8053 /* AppDelegate.h */,
 				C99A13A2188F027600DA8053 /* AppDelegate.m */,
 				C99A13A4188F027600DA8053 /* Main.storyboard */,
+				C99A13CC188F1BB500DA8053 /* BusAnnotation.h */,
+				C99A13CD188F1BB500DA8053 /* BusAnnotation.m */,
+				C99A13C9188F198000DA8053 /* MapDetailViewController.h */,
+				C99A13CA188F198000DA8053 /* MapDetailViewController.m */,
 				C99A13A7188F027600DA8053 /* ViewController.h */,
 				C99A13A8188F027600DA8053 /* ViewController.m */,
 				C99A13AA188F027600DA8053 /* Images.xcassets */,
@@ -126,6 +152,10 @@
 		C99A1399188F027600DA8053 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				C99A14181890301600DA8053 /* metralogosmall.png */,
+				C99A14161890300B00DA8053 /* pacelogosmall.png */,
+				C99A13D31890116200DA8053 /* metralogo.png */,
+				C99A13D11890115800DA8053 /* pacelogo.png */,
 				C99A139A188F027600DA8053 /* GetOnTheBus-Info.plist */,
 				C99A139B188F027600DA8053 /* InfoPlist.strings */,
 				C99A139E188F027600DA8053 /* main.m */,
@@ -229,8 +259,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				C99A13AB188F027600DA8053 /* Images.xcassets in Resources */,
+				C99A14191890301600DA8053 /* metralogosmall.png in Resources */,
+				C99A13D21890115800DA8053 /* pacelogo.png in Resources */,
 				C99A139D188F027600DA8053 /* InfoPlist.strings in Resources */,
 				C99A13A6188F027600DA8053 /* Main.storyboard in Resources */,
+				C99A13D41890116200DA8053 /* metralogo.png in Resources */,
+				C99A14171890300B00DA8053 /* pacelogosmall.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -249,9 +283,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C99A13CB188F198000DA8053 /* MapDetailViewController.m in Sources */,
 				C99A13A9188F027600DA8053 /* ViewController.m in Sources */,
 				C99A13A3188F027600DA8053 /* AppDelegate.m in Sources */,
 				C99A139F188F027600DA8053 /* main.m in Sources */,
+				C99A13CE188F1BB500DA8053 /* BusAnnotation.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -460,6 +496,7 @@
 				C99A13C3188F027600DA8053 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C99A13C4188F027600DA8053 /* Build configuration list for PBXNativeTarget "GetOnTheBusTests" */ = {
 			isa = XCConfigurationList;
@@ -468,6 +505,7 @@
 				C99A13C6188F027600DA8053 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
